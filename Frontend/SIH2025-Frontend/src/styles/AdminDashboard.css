@@ -1,0 +1,147 @@
+.main-inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.student-statistics {
+  height: 25%;
+  padding: 10px;
+  width: 100%;
+  min-height: 200px;
+  background-color: rgb(204, 219, 220);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  align-items: center;
+}
+
+.student-statistics > div {
+  background-color: #f9f9f9;
+  height: 80%;
+  min-height: 160px;
+  width: 18%;
+  border-radius: 3%;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.student-statistics > div > p {
+  font-size: 1.5rem;
+}
+
+.sheet-statistics {
+  background: linear-gradient(180deg, rgb(204, 219, 220), #c1d3fe);
+  padding: 10px;
+  height: 60%;
+  width: 100%;
+}
+
+.filter-list {
+  /* change latter */
+  display: none;
+  width: 100%;
+  height: 50px;
+  background-color: mediumorchid;
+}
+
+.table-of-student-list {
+  height: 60%;
+  width: 100%;
+
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: start;
+  align-items: center;
+}
+
+.list-table-row {
+  width: 100%;
+  /* background-color: white; */
+  border-bottom: 1px solid black;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.list-table-row > div {
+  text-align: center;
+
+  align-self: center;
+  flex: 1;
+}
+
+.tool-tip-and-export {
+  height: 50px;
+  width: 100%;
+  background-color: #bbdefb;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  position: sticky;
+  bottom: 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-export {
+  background: #023047;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-export:hover {
+  background: #357abd;
+}
+
+.tool-tip {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; /* spacing between High / Medium / Low */
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 20px;
+  height: 14px;
+  border-radius: 3px;
+}
+
+.legend-color.high {
+  background-color: #ff6392;
+}
+
+.legend-color.medium {
+  background-color: #ffe45e;
+}
+
+.legend-color.low {
+  background-color: #90ee90;
+}

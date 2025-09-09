@@ -1,0 +1,277 @@
+.drop-sheet-section {
+  background-color: rgb(204, 219, 220);
+  height: 40%;
+  min-height: 40%;
+  width: 100%;
+  padding-top: 25px;
+
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+.drop-sheet-section div {
+  background-color: #7ae582;
+  flex: auto;
+  height: 50%;
+  min-height: 200px;
+
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.drop-sheet-before-submit {
+  background: linear-gradient(180deg, rgb(204, 219, 220), #c1d3fe);
+  height: 60%;
+  width: 100%;
+
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.condition-and-mentor {
+  width: 100%;
+  border-radius: 9px;
+  padding-top: 30px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* lll */
+.custom-file-upload {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background: #d9dcd6;
+  color: black;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+.custom-file-upload:hover {
+  background: #357abd;
+  color: white;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none; /* hide native file input */
+}
+
+.file-name {
+  margin-top: 0.6rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* lll */
+
+label {
+  font-size: 20px !important;
+}
+
+.sheet-conditions {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1rem;
+}
+
+.sheet-conditions h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  font-weight: 500;
+  color: #222;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="email"] {
+  padding: 0.6rem;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px rgba(74, 144, 226, 0.3);
+}
+
+.range-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.slider-with-value {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.slider-with-value input[type="range"] {
+  flex: 0.75; /* slider takes available space */
+  accent-color: #4a90e2;
+}
+
+.range-value {
+  font-weight: 600;
+  min-width: 3rem;
+  text-align: right;
+}
+
+.radio-group div {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.2rem;
+}
+
+.sheet-assign-mentor {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.btn-submit {
+  background: #4a90e2;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-submit:hover {
+  background: #357abd;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(53, 122, 189, 0.3);
+}
+
+.sheet-assign-mentor {
+  height: 90%;
+  width: 50%;
+
+  padding: 10px;
+  border-left: 1px solid black;
+}
+/* .sheet-submit-button {
+  background-color: lightseagreen;
+  width: auto;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  align-self: flex-end;
+  border-radius: 5px;
+} */
+
+.sheet-submit-button {
+  align-self: flex-end;
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1.5rem;
+}
+
+/* for form  */
+
+/* input[type="file"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="range"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+} */
+
+/* .radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+} */
+
+/* .radio-group div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+} */
+
+/* .btn-submit {
+  background-color: #0070c0;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+} */
+
+/* .btn-submit:hover {
+  background-color: #005fa3;
+} */
+
+.upload-label {
+  font-weight: 600;
+  color: #023047;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+input[type="file"] {
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.drop-sheet-one,
+.drop-sheet-two,
+.drop-sheet-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-sheet-section label {
+  font-weight: 400;
+  margin-bottom: 10px;
+}
